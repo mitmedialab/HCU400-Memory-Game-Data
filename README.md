@@ -14,6 +14,11 @@ that are separated by 60 sounds each (denoted 't' frequently) and 'vigilance'--
 the sounds that are spaced 2-3 apart to make sure the person is paying
 attention and engaged throughout the memory task.
 
+Note that the raw game data has a full list of the order of the sound samples,
+as well as whether there was a keypress indicating that sound was selected as
+having been heard before, in ms from the start of the sound (a zero indicates
+no press).
+
 Our study was conducted off of Turk, and thus we tracked people with
 tokens/user ids ourselves, and then cross-referenced those with their Amazon
 assigned IDs.  Some people have multiple amazon turk accounts, and some close
